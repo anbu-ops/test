@@ -1,4 +1,4 @@
-tail=9
+tail=int(input())
 if tail==1 :
         print('shukaku')
 elif tail==2:
@@ -17,4 +17,5 @@ elif tail==8:
         print('gyuki')
 elif tail==9:
         print('kurama')
-
+else:
+    print('juubi')
